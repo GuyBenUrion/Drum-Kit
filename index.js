@@ -85,7 +85,7 @@ addEventListener("keydown", function(event) {
       break;
 
     default:
-      console.log(btnInnerHtml);
+      console.log("btnInnerHtml");
 
   }
 })
