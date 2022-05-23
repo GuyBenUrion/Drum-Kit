@@ -1,6 +1,6 @@
 for (var i = 0; i < document.querySelectorAll(".drum").length; i++) {
   document.querySelectorAll(".drum")[i].addEventListener("click", function() {
-    var btnInnerHtml = this.innerHTML;
+    let btnInnerHtml = this.innerHTML;
 
     switch (btnInnerHtml) {
       case "w":
